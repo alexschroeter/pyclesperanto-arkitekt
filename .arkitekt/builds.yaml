@@ -1,0 +1,335 @@
+builds:
+- build_id: c47ae0cb-f668-4286-8d54-3ff81dc41e77
+  build_run: 7283a2ac-b6d8-4d40-bdeb-849336c4b4cf
+  description: This is a vanilla flavour
+  flavour: rocm
+  inspection:
+    definitions:
+    - args:
+      - annotations: []
+        default: 10
+        description: The number of iterations, by default 10
+        key: n
+        kind: INT
+        label: n
+        nullable: true
+        scope: GLOBAL
+      - annotations: []
+        default: 2
+        description: The timeout, by default 2
+        key: timeout
+        kind: INT
+        label: timeout
+        nullable: true
+        scope: GLOBAL
+      collections: []
+      description: This function generates {{n}} strings with a {{timeout}} ms timeout
+        between each string
+      interfaces: []
+      kind: GENERATOR
+      name: Generate N Strings
+      portGroups: []
+      returns:
+      - annotations: []
+        description: A string with Hello {n}
+        key: return0
+        kind: STRING
+        nullable: false
+        scope: GLOBAL
+    - args:
+      - annotations: []
+        description: The input string
+        key: hello
+        kind: STRING
+        label: hello
+        nullable: false
+        scope: GLOBAL
+      collections: []
+      description: This function appends world to the input string
+      interfaces: []
+      kind: FUNCTION
+      name: Append World
+      portGroups: []
+      returns:
+      - annotations: []
+        description: '{{hello}} World'
+        key: return0
+        kind: STRING
+        nullable: false
+        scope: GLOBAL
+    - args:
+      - annotations: []
+        description: 'The input string
+
+
+          Returns'
+        key: input
+        kind: STRING
+        label: input
+        nullable: false
+        scope: GLOBAL
+      collections: []
+      description: 'This function prints the input string to
+
+        the console'
+      interfaces: []
+      kind: FUNCTION
+      name: Print String
+      portGroups: []
+      returns:
+      - annotations: []
+        key: return0
+        kind: STRING
+        nullable: false
+        scope: GLOBAL
+    size: 7015008588
+  manifest:
+    author: Alexander Wilhelmi
+    entrypoint: app
+    identifier: pyclesperanto-arkitekt
+    requirements: []
+    scopes:
+    - read
+    version: 0.0.1
+  selectors: []
+- build_id: bea533db-b65d-471f-af55-be982f477e9c
+  build_run: 97a192ee-d51d-4cb3-b9df-4dba40d175d4
+  description: This is a vanilla flavour
+  flavour: oneAPI
+  inspection:
+    definitions:
+    - args:
+      - assignWidget:
+          kind: SearchWidget
+          query: "query search_representation($search: String, $values: [ID]) {\n\
+            \  options: representations(name: $search, limit: 20, ids: $values) {\n\
+            \    value: id\n    label: name\n  }\n}"
+          ward: mikro
+        identifier: '@mikro/representation'
+        key: rep
+        kind: STRUCTURE
+        nullable: false
+        scope: GLOBAL
+      collections: []
+      description: This function generates {{n}} strings with a {{timeout}} ms timeout
+        between each string
+      interfaces: []
+      kind: FUNCTION
+      name: Generate N Strings
+      portGroups: []
+      returns:
+      - assignWidget:
+          kind: SearchWidget
+          query: "query search_representation($search: String, $values: [ID]) {\n\
+            \  options: representations(name: $search, limit: 20, ids: $values) {\n\
+            \    value: id\n    label: name\n  }\n}"
+          ward: mikro
+        description: A string with Hello {n}
+        identifier: '@mikro/representation'
+        key: return0
+        kind: STRUCTURE
+        nullable: false
+        scope: GLOBAL
+    size: 17895515252
+  manifest:
+    author: Alexander Wilhelmi
+    entrypoint: app
+    identifier: pyclesperanto-arkitekt
+    requirements: []
+    scopes:
+    - read
+    version: 0.0.1
+  selectors: []
+- build_id: 633d020b-8217-4dfc-a9d4-3f9a3f0e1aa9
+  build_run: c12d2014-bca1-4653-a1da-573f403f297d
+  description: This is a vanilla flavour
+  flavour: rocm
+  inspection:
+    definitions:
+    - args:
+      - assignWidget:
+          kind: SearchWidget
+          query: "query search_representation($search: String, $values: [ID]) {\n\
+            \  options: representations(name: $search, limit: 20, ids: $values) {\n\
+            \    value: id\n    label: name\n  }\n}"
+          ward: mikro
+        identifier: '@mikro/representation'
+        key: rep
+        kind: STRUCTURE
+        nullable: false
+        scope: GLOBAL
+      collections: []
+      description: This function generates {{n}} strings with a {{timeout}} ms timeout
+        between each string
+      interfaces: []
+      kind: FUNCTION
+      name: Generate N Strings
+      portGroups: []
+      returns:
+      - assignWidget:
+          kind: SearchWidget
+          query: "query search_representation($search: String, $values: [ID]) {\n\
+            \  options: representations(name: $search, limit: 20, ids: $values) {\n\
+            \    value: id\n    label: name\n  }\n}"
+          ward: mikro
+        description: A string with Hello {n}
+        identifier: '@mikro/representation'
+        key: return0
+        kind: STRUCTURE
+        nullable: false
+        scope: GLOBAL
+    size: 7015012733
+  manifest:
+    author: Alexander Wilhelmi
+    entrypoint: app
+    identifier: pyclesperanto-arkitekt
+    requirements: []
+    scopes:
+    - read
+    version: 0.0.1
+  selectors: []
+- build_id: 26086906-55cf-4c3a-ba81-190c1dd43b75
+  build_run: cce6aa49-7ff8-48be-8706-efb1d59546fb
+  description: This is a vanilla flavour
+  flavour: rocm
+  inspection:
+    definitions:
+    - args:
+      - assignWidget:
+          kind: SearchWidget
+          query: "query search_representation($search: String, $values: [ID]) {\n\
+            \  options: representations(name: $search, limit: 20, ids: $values) {\n\
+            \    value: id\n    label: name\n  }\n}"
+          ward: mikro
+        identifier: '@mikro/representation'
+        key: rep
+        kind: STRUCTURE
+        nullable: false
+        scope: GLOBAL
+      collections: []
+      description: This function generates {{n}} strings with a {{timeout}} ms timeout
+        between each string
+      interfaces: []
+      kind: FUNCTION
+      name: Generate N Strings
+      portGroups: []
+      returns:
+      - assignWidget:
+          kind: SearchWidget
+          query: "query search_representation($search: String, $values: [ID]) {\n\
+            \  options: representations(name: $search, limit: 20, ids: $values) {\n\
+            \    value: id\n    label: name\n  }\n}"
+          ward: mikro
+        description: A string with Hello {n}
+        identifier: '@mikro/representation'
+        key: return0
+        kind: STRUCTURE
+        nullable: false
+        scope: GLOBAL
+    size: 7015014279
+  manifest:
+    author: Alexander Wilhelmi
+    entrypoint: app
+    identifier: pyclesperanto-arkitekt
+    requirements: []
+    scopes:
+    - read
+    version: 0.0.1
+  selectors: []
+- build_id: f0f5ef15-29c4-4b3a-856e-1081996a94d5
+  build_run: 722572b7-ddbe-45cd-a1f6-c11848cd9bc6
+  description: This is a vanilla flavour
+  flavour: rocm
+  inspection:
+    definitions:
+    - args:
+      - assignWidget:
+          kind: SearchWidget
+          query: "query search_representation($search: String, $values: [ID]) {\n\
+            \  options: representations(name: $search, limit: 20, ids: $values) {\n\
+            \    value: id\n    label: name\n  }\n}"
+          ward: mikro
+        identifier: '@mikro/representation'
+        key: rep
+        kind: STRUCTURE
+        nullable: false
+        scope: GLOBAL
+      collections: []
+      description: This function generates {{n}} strings with a {{timeout}} ms timeout
+        between each string
+      interfaces: []
+      kind: FUNCTION
+      name: Generate N Strings
+      portGroups: []
+      returns:
+      - assignWidget:
+          kind: SearchWidget
+          query: "query search_representation($search: String, $values: [ID]) {\n\
+            \  options: representations(name: $search, limit: 20, ids: $values) {\n\
+            \    value: id\n    label: name\n  }\n}"
+          ward: mikro
+        description: A string with Hello {n}
+        identifier: '@mikro/representation'
+        key: return0
+        kind: STRUCTURE
+        nullable: false
+        scope: GLOBAL
+    size: 7015015844
+  manifest:
+    author: Alexander Wilhelmi
+    entrypoint: app
+    identifier: pyclesperanto-arkitekt
+    requirements: []
+    scopes:
+    - read
+    version: 0.0.1
+  selectors: []
+- build_id: 24957f39-a042-46d3-93d4-2e98d04b2fe3
+  build_run: e6f8e2ea-4c8b-4e9e-be5e-d656bfae152b
+  description: This is a vanilla flavour
+  flavour: oneAPI
+  inspection:
+    definitions:
+    - args:
+      - assignWidget:
+          kind: SearchWidget
+          query: "query search_representation($search: String, $values: [ID]) {\n\
+            \  options: representations(name: $search, limit: 20, ids: $values) {\n\
+            \    value: id\n    label: name\n  }\n}"
+          ward: mikro
+        identifier: '@mikro/representation'
+        key: rep
+        kind: STRUCTURE
+        nullable: false
+        scope: GLOBAL
+      collections: []
+      description: This function generates {{n}} strings with a {{timeout}} ms timeout
+        between each string
+      interfaces: []
+      kind: FUNCTION
+      name: Generate N Strings
+      portGroups: []
+      returns:
+      - assignWidget:
+          kind: SearchWidget
+          query: "query search_representation($search: String, $values: [ID]) {\n\
+            \  options: representations(name: $search, limit: 20, ids: $values) {\n\
+            \    value: id\n    label: name\n  }\n}"
+          ward: mikro
+        description: A string with Hello {n}
+        identifier: '@mikro/representation'
+        key: return0
+        kind: STRUCTURE
+        nullable: false
+        scope: GLOBAL
+    size: 17895521865
+  manifest:
+    author: Alexander Wilhelmi
+    entrypoint: app
+    identifier: pyclesperanto-arkitekt
+    requirements: []
+    scopes:
+    - read
+    version: 0.0.1
+  selectors: []
+latest_build_run: e6f8e2ea-4c8b-4e9e-be5e-d656bfae152b
